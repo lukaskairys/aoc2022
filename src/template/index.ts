@@ -14,22 +14,26 @@ const part2 = (rawInput: string) => {
   return;
 };
 
+const testInput = ``
+const firstTestResult = ""
+const secondTestResult = ""
+
 run({
   part1: {
     tests: [
-      // {
-      //   input: ``,
-      //   expected: "",
-      // },
+      {
+        input: testInput,
+        expected: firstTestResult,
+      },
     ],
     solution: part1,
   },
   part2: {
     tests: [
-      // {
-      //   input: ``,
-      //   expected: "",
-      // },
+      {
+        input: testInput,
+        expected: secondTestResult,
+      },
     ],
     solution: part2,
   },
